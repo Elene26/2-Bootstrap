@@ -1,5 +1,6 @@
 body{
     font-family: "Open Sans", sans-serif;
+    background-color: paleturquoise;
 }
 
 h1{
@@ -8,11 +9,11 @@ h1{
 
 h2, h3{
     font-family: "Lobster", cursive;
-    color: purple;
+    color: lightseagreen;
 }
 
 h2 {
-    color: purple;
+    color: darkblue;
 }
 
 header h2 {
@@ -20,14 +21,14 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(pink, white);
+    background-image: linear-gradient(lightseagreen, white);
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, red, orange, yellow);
+    background-image: linear-gradient(to right, blue, lightseagreen, lightgreen);
     color: white;
 }
 
@@ -38,7 +39,7 @@ header h2 {
 }
 
 .navbar-dark {
-    background-color: purple;
+    background-color: lightseagreen;
 }
 
 .tab-content {
