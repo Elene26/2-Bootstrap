@@ -8,7 +8,7 @@ h1{
 
 h2, h3{
     font-family: "Lobster", cursive;
-    color: purple;
+    color: lightsalmon;
 }
 
 h2 {
@@ -38,7 +38,13 @@ header h2 {
 }
 
 .navbar-dark {
-    background-color: purple;
+    background-color: coral;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .tab-content {

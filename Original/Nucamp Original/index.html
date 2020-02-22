@@ -31,7 +31,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md--4 col-xl-2 mt-4">
-                    <a href="#reserveForm"><button class="btn btn-info btn-lg" data-toggle="tooltip"
+                    <a href="#reserveForm"><button class="btn btn-danger btn-lg" data-toggle="tooltip"
                             data-placement="bottom" data-html="true"
                             title="Or call us at <br /><strong> 1-206-555-1234</strong>">Reserve Campsite</button></a>
                 </div>
@@ -166,13 +166,12 @@
                             <span class="carousel-control-next-icon"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                        
                     </div>
-
-
                 </div>
             </div>
+        </div>
 
+        <div class="container">
             <div class="row row-content align-items-center">
                 <div class="col-sm-4 order-sm-last col-md-3">
                     <h2 class="text-sm-right">Discover & Review</h2>
@@ -192,54 +191,57 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="container">
-                <div class="row row-content align-items-center">
-                    <div class="col-sm-4 order-sm-first col-md-3">
-                        <h2>Featured Campsites</h2>
-                    </div>
-                    <div class="col">
-                        <div class="media">
-                            <div class="media-body align-self-center">
-                                <h3>React Lake Campground</h3>
-                                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this
-                                    campground on the shores of the pristine React Lake is a favorite for fly fishers.
-                                </p>
-                            </div>
-                            <img class="d-flex mr-3 img-thumbnail" src="img/react-lake-thumb.jpg"
-                                alt="React Lake Campground" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row row-content align-items-center">
-                    <div class="col-sm-4 order-sm-last col-md-3">
-                        <h2 class="text-sm-right">Our Community Partners</h2>
-                    </div>
-                    <div class="col">
-                        <div class="media">
-                            <img class="d-flex mr-3 img-thumbnail " src="img/bootstrap-thumb.png"
-                                alt="Bootstrap Outfitters">
-                            <div class="media-body align-self-center">
-                                <h3>Bootstrap Outfitters</h3>
-                                <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at
-                                    prices
-                                    you can't beat.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <div class="container">
             <div class="row row-content align-items-center">
-                <div class="card">
-                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+                <div class="col-sm-4 order-sm-first col-md-3">
+                    <h2>Featured Campsites</h2>
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <div class="media-body align-self-center">
+                            <h3>React Lake Campground</h3>
+                            <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this
+                                campground on the shores of the pristine React Lake is a favorite for fly fishers.
+                            </p>
+                        </div>
+                        <img class="d-flex mr-3 img-thumbnail" src="img/react-lake-thumb.jpg"
+                            alt="React Lake Campground" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                    <h2 class="text-sm-right">Our Community Partners</h2>
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail " src="img/bootstrap-thumb.png"
+                            alt="Bootstrap Outfitters">
+                        <div class="media-body align-self-center">
+                            <h3>Bootstrap Outfitters</h3>
+                            <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at
+                                prices
+                                you can't beat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div id="card" class="row row-content align-items-center">
+                <div class="card mx-auto">
+                    <h3 class="card-header bg-danger text-white">Reserve a Campsite</h3>
                     <div class="card-body">
                         <form id="reserveForm"></form>
                         <div class="row">
-                            <label id="numCamp" class="col-sm-6 col-form-label mx-auto">Number of Campers</label>
+                            <label id="numCamp" class="col-sm-6 col-form-label text-black">Number of Campers</label>
                             <div class="col">
                                 <select class="form-control" id="numCampers" placeholder="Select..." name="option">
                                     <option value="select">Select...</option>
@@ -253,27 +255,25 @@
                             </div>
                             <br>
                             <br>
-                            <label id="Date" class="col-sm-6 col-form-label mx-auto">Date</label>
+                            <label id="Date" class="col-sm-6 col-form-label mx-auto text-black">Date</label>
                             <div class="col">
                                 <input type="date" id="date" name="date" placeholder="Date" class="form-control">
                             </div>
                             <br>
                             <br>
                             <div class="col-sm-6 col-form-label">
-                                <button class="btn btn-primary" type="submit">Reserve</button>
+                                <button class="btn btn-danger" type="submit">Reserve</button>
                             </div>
                         </div>
                         </form>
                     </div>
                 </div>
             </div>
-
-
         </div>
 
 
 
-
+<div class="container">
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
@@ -306,6 +306,7 @@
                 </div>
             </div>
         </footer>
+        </div>
 
 
 
