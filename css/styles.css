@@ -1,62 +1,62 @@
-body{
-    font-family: "Open Sans", sans-serif;
-}
+#loginButton {
+  cursor: pointer; }
 
-h1{
-    font-family: "Lobster", cursive;
-}
+body {
+  font-family: "Open Sans", sans-serif; }
 
-h2, h3{
-    font-family: "Lobster", cursive;
-    color: lightsalmon;
-}
+h1 {
+  font-family: "Lobster", cursive; }
+
+h3 {
+  font-family: "Lobster", cursive;
+  color: coral; }
 
 h2 {
-    color: purple;
-}
+  font-family: "Lobster", cursive;
+  color: red; }
 
 header h2 {
-    color: #cec8ff;
-}
+  font-family: "Lobster", cursive;
+  color: white; }
 
 .site-footer {
-    background-image: linear-gradient(pink, white);
-    padding: 20px 0;
-}
+  background-image: linear-gradient(pink, white);
+  padding: 20px 0; }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, red, orange, yellow);
-    color: white;
-}
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, red, coral, yellow);
+  color: white; }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
 .navbar-dark {
-    background-color: coral;
-}
+  background-color: coral; }
 
 #carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
+  position: absolute;
+  right: 0;
+  bottom: 0; }
 
 .tab-content {
-    border: 1px solid beige;
-    border-top: none;
-    padding: 10px;
-}
+  border: 1px solid beige;
+  border-top: none;
+  padding: 10px; }
 
 .carousel-caption {
-    background-color: rgba(0,0,0,0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-    border: solid #5637DD
-}
+  border: solid #5637DD; }
+
+#reserveModal .modal-header {
+  background-color: teal;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: pink;
+  color: white; }
